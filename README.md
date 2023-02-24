@@ -1,1 +1,1 @@
-# frugo-frontend
+# fruGo App Frontend
