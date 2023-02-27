@@ -10,15 +10,15 @@ export default function NotLoggedInNavBar() {
         },
         {
             title: "Products",
-            linkTo: "products",
+            linkTo: "/products",
         },
         {
             title: "Login",
-            linkTo: "login",
+            linkTo: "/login",
         },
         {
             title: "Register",
-            linkTo: "register",
+            linkTo: "/register",
         },
     ]
 

@@ -10,7 +10,7 @@ export default function NotLoggedInHomePage() {
     return (
         <>
             <NotLoggedInNavBar />
-            <h2 style={{ backgroundColor: "black", color: "white" }}
+            <h2 style={{ color: "dodgerblue", backgroundColor: "black" }}
             >YOUR HOME ESSENTIALS, DELIVERED STRAIGHT TO YOUR DOOR!</h2>
             <DummyTextGroup />
             <Outlet />
