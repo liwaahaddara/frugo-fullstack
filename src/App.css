@@ -14,11 +14,11 @@
 
 
 .dummy-text-group {
-  padding: 10px;
+  padding: 20px;
   font-weight: 700;
   font-size: 1.5rem;
+  font-style: italic;
   margin-top: 20px;
-  text-align: left;
 }
 
 .dummy-text {
