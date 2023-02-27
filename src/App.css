@@ -5,7 +5,7 @@
 
 
 .fruGo-title {
-  background-color: lightgray;
+  background-color: black;
   color: dodgerblue;
   font-size: 3rem;
   margin: 0;
@@ -13,4 +13,14 @@
 }
 
 
+.dummy-text-group {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: left;
+}
 
+.dummy-text {
+  margin-top: 35px;
+}
