@@ -11,6 +11,7 @@ export default function Register() {
         <>
             <NotLoggedInNavBar />
             <Title>Register</Title>
+            <h3>(CAN ONLY REGISTER AS A CUSTOMER)</h3>
             <form
                 style={{
                     display: "flex",
@@ -48,10 +49,15 @@ export default function Register() {
                 </InputWrapper>
                 <InputWrapper>
                     <label htmlFor="city">City:</label>
-                    <input
-                        type="text"
-                        name="city"
-                    />
+                    <select name="city" id="city">
+                        <option value="Melbourne">Melbourne</option>
+                        <option value="Sydney">Sydney</option>
+                        <option value="Adelaide">Adelaide</option>
+                        <option value="Brisbane">Brisbane</option>
+                        <option value="Perth">Perth</option>
+                        <option value="Darwin">Darwin</option>
+                        <option value="Hobart">Hobart</option>
+                    </select>
                 </InputWrapper>
                 <div>
                     <input type="submit" value="Register" />
