@@ -12,6 +12,14 @@ export default function NavBar() {
             title: "Products",
             linkTo: "products",
         },
+        {
+            title: "Login",
+            linkTo: "login",
+        },
+        {
+            title: "Register",
+            linkTo: "register",
+        },
     ]
 
 
@@ -25,7 +33,7 @@ export default function NavBar() {
                                 <NavLink
                                     key={item.title}
                                     style={{
-                                        textDecoration: "none"
+                                        textDecoration: "none",
                                     }
                                     }
                                     to={item.linkTo}
