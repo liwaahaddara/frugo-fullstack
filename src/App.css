@@ -24,3 +24,11 @@
 .dummy-text {
   margin-top: 35px;
 }
+
+.login-button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: dodgerblue;
+  color: black;
+}

@@ -33,7 +33,8 @@ export default function Login() {
                     />
                 </InputWrapper>
                 <div>
-                    <input type="submit" value="Login" />
+                    <input className="login-button"
+                        type="submit" value="SUBMIT" />
                 </div>
             </form>
         </>
