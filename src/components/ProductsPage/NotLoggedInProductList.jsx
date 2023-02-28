@@ -20,55 +20,43 @@ export const CustomGrid = styled(GridBox)`
 
 
 
-export default function ProductList(props) {
+export default function NotLoggedInProductList(props) {
     const products = [
         {
             id: 1,
             name: "Apple",
             type: "Fruit",
-            price: 6.80,
             image: Apples,
-            stock: 10,
         },
         {
             id: 2,
             name: "Cherry",
             type: "Fruit",
-            price: 13.50,
             image: Cherries,
-            stock: 10,
         },
         {
             id: 3,
             name: "Carrot",
             type: "Vegetable",
-            price: 4.20,
             image: Carrots,
-            stock: 10,
         },
         {
             id: 4,
             name: "Potatoe",
             type: "Vegetable",
-            price: 12.60,
             image: Potatoes,
-            stock: 10,
         },
         {
             id: 5,
             name: "Orange",
             type: "Fruit",
-            price: 7.80,
             image: Oranges,
-            stock: 10,
         },
         {
             id: 6,
             name: "Tomato",
             type: "Vegetable",
-            price: 10.10,
             image: Tomatoes,
-            stock: 10,
         },
 
     ]
