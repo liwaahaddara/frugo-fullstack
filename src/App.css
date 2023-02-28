@@ -14,15 +14,15 @@
 
 
 .dummy-text-group {
-  padding: 20px;
+  padding: 0 20px;
   font-weight: 700;
   font-size: 1.5rem;
   font-style: italic;
-  margin-top: 20px;
+  margin: 0;
 }
 
 .dummy-text {
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 .login-button {
@@ -31,4 +31,13 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: dodgerblue;
   color: black;
+}
+
+.customer-homepage-info {
+  font-weight: 600;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }

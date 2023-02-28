@@ -7,6 +7,7 @@ import NotLoggedInProductsPage from './components/ProductsPage/NotLoggedInProduc
 import Login from './components/Login';
 import NotFound from './components/NotFound';
 import Register from './components/Register';
+import CustomerHomePage from './components/CustomerPages/CustomerHomepage';
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
         <Route exact path='login' element={<Login />} />
 
         <Route exact path='register' element={<Register />} />
+
+        <Route exact path='customer' element={<CustomerHomePage />}>
+
+        </Route>
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
