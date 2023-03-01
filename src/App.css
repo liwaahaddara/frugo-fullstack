@@ -77,3 +77,8 @@
   padding: 15px;
   padding-left: 25px;
 }
+
+.completed-orders {
+  border: black dashed 5px;
+  padding: 5px;
+}
