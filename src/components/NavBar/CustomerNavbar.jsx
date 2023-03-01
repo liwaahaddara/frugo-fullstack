@@ -6,7 +6,7 @@ export default function CustomerNavBar() {
     const navBarItems = [
         {
             title: "Home",
-            linkTo: "/",
+            linkTo: "/customer",
         },
         {
             title: "Products",

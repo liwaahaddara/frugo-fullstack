@@ -1,5 +1,3 @@
-import { Outlet } from "react-router-dom"
-
 // UI Components for HomePage
 import CustomerNavBar from "../NavBar/CustomerNavbar"
 import DummyTextGroup from "../DummyText"
@@ -10,7 +8,7 @@ export default function CustomerHomePage() {
     return (
         <>
             <CustomerNavBar />
-            <div className="customer-homepage-info">
+            <div className="customer-info">
                 <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
             </div>
             <h2 style={{
@@ -19,7 +17,6 @@ export default function CustomerHomePage() {
             }}
             >YOUR HOME ESSENTIALS, DELIVERED STRAIGHT TO YOUR DOOR!</h2>
             <DummyTextGroup />
-            <Outlet />
         </>
     )
 }

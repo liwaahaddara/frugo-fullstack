@@ -21,9 +21,9 @@ export default function CustomerProduct(props) {
         })
     }
     return (
-        <Wrapper onClick={() => {
-            navigate(`products/${product.id}`)
-        }}>
+        <Wrapper
+        // onClick={() => { navigate(`products/${product.id}`) }}
+        >
             <img
                 style={{
                     height: 200,
