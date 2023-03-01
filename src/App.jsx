@@ -7,7 +7,8 @@ import NotLoggedInProductsPage from './components/ProductsPage/NotLoggedInProduc
 import Login from './components/Login';
 import NotFound from './components/NotFound';
 import Register from './components/Register';
-import CustomerHomePage from './components/CustomerPages/CustomerHomepage';
+import CustomerHomePage from './components/CustomerPages/CustomerHomePage';
+import CustomerProductsPage from './components/CustomerPages/CustomerProductsPage';
 
 function App() {
   return (
@@ -31,8 +32,8 @@ function App() {
         <Route exact path='register' element={<Register />} />
 
         <Route exact path='customer' element={<CustomerHomePage />}>
-
         </Route>
+        <Route exact path='customer/products' element={<CustomerProductsPage />} />
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
