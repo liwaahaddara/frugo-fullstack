@@ -11,8 +11,14 @@ import CustomerHomePage from "./components/CustomerPages/CustomerHomepage";
 import CustomerProductsPage from "./components/CustomerPages/CustomerProductsPage";
 import CustomerCartPage from "./components/CustomerPages/CustomerCartPage";
 import CustomerOrderConfirmation from "./components/CustomerPages/CustomerOrderConfirmation";
+import { useState } from "react";
 
 function App() {
+  const [user, setUser] = useState({
+    email: "",
+    password: "",
+  });
+  const [token, setToken] = useState("");
   return (
     <div className="App">
       <NavLink
@@ -29,7 +35,18 @@ function App() {
 
         <Route exact path="products" element={<NotLoggedInProductsPage />} />
 
-        <Route exact path="login" element={<Login />} />
+        <Route
+          exact
+          path="login"
+          element={
+            <Login
+              user={user}
+              setUser={setUser}
+              setToken={setToken}
+              token={token}
+            />
+          }
+        />
 
         <Route exact path="register" element={<Register />} />
 
