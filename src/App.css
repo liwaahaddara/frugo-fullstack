@@ -33,7 +33,7 @@
   color: black;
 }
 
-.customer-homepage-info {
+.customer-info {
   font-weight: 600;
   background-color: black;
   padding: 10px;
@@ -52,4 +52,28 @@
 .cart-bottom-button {
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+.confirmation-heading {
+  font-size: 2rem;
+  border: black 7px dashed;
+  text-align: left;
+  padding: 15px;
+  padding-left: 25px;
+}
+
+.confirmation-sub {
+  font-size: 1.1rem;
+  border: black 4px solid;
+  text-align: left;
+  padding: 15px;
+  padding-left: 25px;
+}
+
+.confirmation-details {
+  font-size: 1.1rem;
+  border: black 4px solid;
+  text-align: left;
+  padding: 15px;
+  padding-left: 25px;
 }

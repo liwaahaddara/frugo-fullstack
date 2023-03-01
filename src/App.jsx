@@ -10,6 +10,7 @@ import Register from './components/Register';
 import CustomerHomePage from './components/CustomerPages/CustomerHomePage';
 import CustomerProductsPage from './components/CustomerPages/CustomerProductsPage';
 import CustomerCartPage from './components/CustomerPages/CustomerCartPage';
+import CustomerOrderConfirmation from './components/CustomerPages/CustomerOrderConfirmation';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route exact path='customer' element={<CustomerHomePage />} />
         <Route exact path='customer/products' element={<CustomerProductsPage />} />
         <Route exact path='customer/cart' element={<CustomerCartPage />} />
+        <Route exact path='customer/order-confirmation' element={<CustomerOrderConfirmation />} />
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
