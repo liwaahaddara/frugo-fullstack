@@ -13,6 +13,8 @@ import CustomerCartPage from './components/CustomerPages/CustomerCartPage';
 import CustomerOrderConfirmation from './components/CustomerPages/CustomerOrderConfirmation';
 import CustomerCompletedOrders from './components/CustomerPages/CustomerCompletedOrders';
 
+import MerchantHomePage from './components/MerchantPages/MerchantHomePage';
+
 function App() {
   return (
     <div className="App">
@@ -39,6 +41,8 @@ function App() {
         <Route exact path='customer/cart' element={<CustomerCartPage />} />
         <Route exact path='customer/order-confirmation' element={<CustomerOrderConfirmation />} />
         <Route exact path='customer/completed-orders' element={<CustomerCompletedOrders />} />
+
+        <Route exact path='merchant' element={<MerchantHomePage />} />
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
