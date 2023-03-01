@@ -25,6 +25,7 @@ export default function CustomerProductList(props) {
             price: 4.78,
             type: "Fruit",
             image: Apples,
+            stock: 10
         },
         {
             id: 2,
@@ -32,6 +33,7 @@ export default function CustomerProductList(props) {
             price: 4.78,
             type: "Fruit",
             image: Cherries,
+            stock: 10
         },
         {
             id: 3,
@@ -39,6 +41,7 @@ export default function CustomerProductList(props) {
             price: 4.78,
             type: "Vegetable",
             image: Carrots,
+            stock: 10
         },
         {
             id: 4,
@@ -46,6 +49,7 @@ export default function CustomerProductList(props) {
             price: 4.78,
             type: "Vegetable",
             image: Potatoes,
+            stock: 10
         },
         {
             id: 5,
@@ -53,6 +57,7 @@ export default function CustomerProductList(props) {
             price: 4.78,
             type: "Fruit",
             image: Oranges,
+            stock: 10
         },
         {
             id: 6,
@@ -60,6 +65,7 @@ export default function CustomerProductList(props) {
             price: 4.78,
             type: "Vegetable",
             image: Tomatoes,
+            stock: 10
         },
 
     ]
