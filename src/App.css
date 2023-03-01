@@ -41,3 +41,15 @@
   display: flex;
   justify-content: space-around;
 }
+
+.cart-bottom-buttons {
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-bottom-button {
+  font-size: 1.4rem;
+  font-weight: 600;
+}

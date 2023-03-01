@@ -9,6 +9,7 @@ import NotFound from './components/NotFound';
 import Register from './components/Register';
 import CustomerHomePage from './components/CustomerPages/CustomerHomePage';
 import CustomerProductsPage from './components/CustomerPages/CustomerProductsPage';
+import CustomerCartPage from './components/CustomerPages/CustomerCartPage';
 
 function App() {
   return (
@@ -31,9 +32,9 @@ function App() {
 
         <Route exact path='register' element={<Register />} />
 
-        <Route exact path='customer' element={<CustomerHomePage />}>
-        </Route>
+        <Route exact path='customer' element={<CustomerHomePage />} />
         <Route exact path='customer/products' element={<CustomerProductsPage />} />
+        <Route exact path='customer/cart' element={<CustomerCartPage />} />
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
