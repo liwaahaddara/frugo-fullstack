@@ -9,7 +9,7 @@ export default function CustomerProductsPage() {
     return (
         <>
             <CustomerNavBar />
-            <div className="customer-info">
+            <div className="user-info">
                 <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
             </div>
             <Title>PRODUCTS</Title>

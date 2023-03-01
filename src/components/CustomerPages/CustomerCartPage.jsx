@@ -72,7 +72,7 @@ function CustomerCartPage() {
     return (
         <div id="cart">
             <CustomerNavBar />
-            <div className="customer-info">
+            <div className="user-info">
                 <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
             </div>
             <Title>Cart</Title>
