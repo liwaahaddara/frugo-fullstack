@@ -1,13 +1,24 @@
 // import UI components
-import NotLoggedInNavBar from "../NavBar/NotLoggedInNavBar"
-import NotLoggedInProductList from "./NotLoggedInProductList"
+import axios from "axios";
+import { useEffect, useState } from "react";
+import NotLoggedInNavBar from "../NavBar/NotLoggedInNavBar";
+import NotLoggedInProductList from "./NotLoggedInProductList";
 
 export default function NotLoggedInProductsPage() {
-    return (
-        <>
-            <NotLoggedInNavBar />
-            <h1>PRODUCTS</h1>
-            <NotLoggedInProductList />
-        </>
-    )
+  const [products, setProducts] = useState("");
+  useEffect(() => {
+    axios
+      .get("/products")
+      .then((res) => res.data.data)
+      .then((data) => {
+        setProducts(data);
+      });
+  }, []);
+  return (
+    <>
+      <NotLoggedInNavBar />
+      <h1>PRODUCTS</h1>
+      <NotLoggedInProductList products={products} />
+    </>
+  );
 }
