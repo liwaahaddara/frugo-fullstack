@@ -18,7 +18,15 @@ export default function CustomerNavBar() {
         },
         {
             title: "Orders",
-            linkTo: "/customer/orders",
+            linkTo: "/customer/completed-orders",
+        },
+        {
+            title: "Logout",
+            linkTo: "/",
+        },
+        {
+            title: "View Profile",
+            linkTo: "/customer/profile",
         },
     ]
 
