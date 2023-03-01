@@ -1,3 +1,6 @@
+// import styled components
+import Title from "../styled/Title"
+
 // import UI components
 import CustomerNavBar from "../NavBar/CustomerNavbar"
 import CustomerProductList from "./CustomerProductList"
@@ -9,7 +12,7 @@ export default function CustomerProductsPage() {
             <div className="customer-homepage-info">
                 <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
             </div>
-            <h1>PRODUCTS</h1>
+            <Title>PRODUCTS</Title>
             <CustomerProductList />
         </>
     )

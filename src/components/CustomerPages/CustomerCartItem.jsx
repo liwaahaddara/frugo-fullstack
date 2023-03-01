@@ -49,7 +49,7 @@ const CustomerCartItem = (props) => {
             >
                 ${item.price}
             </div>
-            <div>Stock: {item.stock}</div>
+            <div>Stock: {item.stock - noOfItems}</div>
             <div style={{
                 marginTop: 5
             }}>
