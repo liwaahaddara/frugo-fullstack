@@ -10,6 +10,8 @@ import Title from "../styled/Title"
 import GridBox from "../styled/GridBox"
 import CustomerCartItem from "./CustomerCartItem"
 
+import CustomerNavBar from "../NavBar/CustomerNavbar"
+
 function CustomerCartPage() {
     const products = [
         {
@@ -65,6 +67,10 @@ function CustomerCartPage() {
 
     return (
         <div id="cart">
+            <CustomerNavBar />
+            <div className="customer-homepage-info">
+                <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
+            </div>
             <Title>Cart</Title>
             <GridBox>
                 {products.map((item) => {
