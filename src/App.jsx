@@ -14,10 +14,7 @@ import CustomerOrderConfirmation from "./components/CustomerPages/CustomerOrderC
 import { useState } from "react";
 
 function App() {
-  const [user, setUser] = useState({
-    email: "",
-    password: "",
-  });
+  const [loggedInUser, setLoggedInUser] = useState("");
   const [token, setToken] = useState("");
   return (
     <div className="App">
@@ -40,8 +37,8 @@ function App() {
           path="login"
           element={
             <Login
-              user={user}
-              setUser={setUser}
+              loggedInUser={loggedInUser}
+              setLoggedInUser={setLoggedInUser}
               setToken={setToken}
               token={token}
             />
