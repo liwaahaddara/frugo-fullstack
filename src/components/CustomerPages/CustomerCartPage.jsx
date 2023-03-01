@@ -12,7 +12,11 @@ import CustomerCartItem from "./CustomerCartItem"
 
 import CustomerNavBar from "../NavBar/CustomerNavbar"
 
+import { useNavigate } from "react-router-dom"
+
 function CustomerCartPage() {
+    const navigate = useNavigate()
+
     const products = [
         {
             id: 1,
@@ -68,7 +72,7 @@ function CustomerCartPage() {
     return (
         <div id="cart">
             <CustomerNavBar />
-            <div className="customer-homepage-info">
+            <div className="customer-info">
                 <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
             </div>
             <Title>Cart</Title>
@@ -79,7 +83,7 @@ function CustomerCartPage() {
             </GridBox>
             <Title>TOTAL: $(total amount)</Title>
             <div className="cart-bottom-buttons">
-                <span><button className="cart-bottom-button">Send Order to Merchant</button></span>
+                <span><button onClick={() => { navigate(`/customer/order-confirmation`) }} className="cart-bottom-button">Send Order to Merchant</button></span>
                 <span><button className="cart-bottom-button">Clear Cart</button></span>
             </div>
         </div>
