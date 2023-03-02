@@ -21,6 +21,9 @@ import MerchantProductsPage from './components/MerchantPages/MerchantProductsPag
 import MerchantAddProduct from './components/MerchantPages/MerchantAddProduct';
 import MerchantOrders from './components/MerchantPages/MerchantOrders';
 
+// imports for the 'Admin' user'
+import AdminHomePage from './components/AdminPages/AdminHomePage';
+
 function App() {
   return (
     <div className="App">
@@ -53,6 +56,7 @@ function App() {
         <Route exact path='merchant/add-product' element={<MerchantAddProduct />} />
         <Route exact path='merchant/orders' element={<MerchantOrders />} />
 
+        <Route exact path='admin' element={<AdminHomePage />} />
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
