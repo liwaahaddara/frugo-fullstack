@@ -20,6 +20,13 @@ export default function Register() {
                 }}
             >
                 <InputWrapper>
+                    <label htmlFor="email">Email:</label>
+                    <input
+                        type="email"
+                        name="email"
+                    />
+                </InputWrapper>
+                <InputWrapper>
                     <label htmlFor="username">Username:</label>
                     <input
                         type="text"
@@ -45,6 +52,13 @@ export default function Register() {
                     <input
                         type="text"
                         name="lastName"
+                    />
+                </InputWrapper>
+                <InputWrapper>
+                    <label htmlFor="streetAddress">Street Address:</label>
+                    <input
+                        type="text"
+                        name="streetAddress"
                     />
                 </InputWrapper>
                 <InputWrapper>
