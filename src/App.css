@@ -82,3 +82,7 @@
   border: black dashed 5px;
   padding: 5px;
 }
+
+.product-edit-button {
+  margin-left: 45px;
+}
