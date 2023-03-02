@@ -23,6 +23,7 @@ import MerchantOrders from './components/MerchantPages/MerchantOrders';
 
 // imports for the 'Admin' user'
 import AdminHomePage from './components/AdminPages/AdminHomePage';
+import AdminMerchantList from './components/AdminPages/AdminMerchantList';
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
         <Route exact path='merchant/orders' element={<MerchantOrders />} />
 
         <Route exact path='admin' element={<AdminHomePage />} />
+        <Route exact path='admin/merchant-list' element={<AdminMerchantList />} />
+
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>

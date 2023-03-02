@@ -15,7 +15,7 @@ export default function MerchantOrders() {
                 <div className="confirmation-details">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
-                        className="pending-order">
+                        className="buttons-styled">
                         <button>Confirm Order</button>
                         <button>Cancel Order</button>
                         <br />
@@ -24,7 +24,7 @@ export default function MerchantOrders() {
                 <div className="confirmation-details">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
-                        className="pending-order">
+                        className="buttons-styled">
                         <button>Confirm Order</button>
                         <button>Cancel Order</button>
                         <br />
@@ -33,7 +33,7 @@ export default function MerchantOrders() {
                 <div className="confirmation-details">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
-                        className="pending-order">
+                        className="buttons-styled">
                         <button>Confirm Order</button>
                         <button>Cancel Order</button>
                         <br />
