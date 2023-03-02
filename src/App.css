@@ -86,3 +86,8 @@
 .product-edit-button {
   margin-left: 45px;
 }
+
+.pending-order {
+  display: flex;
+  justify-content: space-around;
+}

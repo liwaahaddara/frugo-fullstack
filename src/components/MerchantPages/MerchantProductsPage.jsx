@@ -14,7 +14,7 @@ export default function MerchantProductsPage() {
         <>
             <MerchantNavBar />
             <div className="user-info">
-                <span>Merchant/City: (Merchant City)</span><span> Welcome (Merchant)!</span>
+                <span>Based in: (Merchant City)</span><span> Welcome (Merchant)!</span>
             </div>
             <Title>YOUR PRODUCTS</Title>
             <Button
