@@ -7,13 +7,17 @@ import NotLoggedInProductsPage from './components/ProductsPage/NotLoggedInProduc
 import Login from './components/Login';
 import NotFound from './components/NotFound';
 import Register from './components/Register';
+
+// imports for the 'Customer' user
 import CustomerHomePage from './components/CustomerPages/CustomerHomePage';
 import CustomerProductsPage from './components/CustomerPages/CustomerProductsPage';
 import CustomerCartPage from './components/CustomerPages/CustomerCartPage';
 import CustomerOrderConfirmation from './components/CustomerPages/CustomerOrderConfirmation';
 import CustomerCompletedOrders from './components/CustomerPages/CustomerCompletedOrders';
 
+// imports for the 'Merchant' user
 import MerchantHomePage from './components/MerchantPages/MerchantHomePage';
+import MerchantProductsPage from './components/MerchantPages/MerchantProductsPage';
 
 function App() {
   return (
@@ -43,6 +47,8 @@ function App() {
         <Route exact path='customer/completed-orders' element={<CustomerCompletedOrders />} />
 
         <Route exact path='merchant' element={<MerchantHomePage />} />
+        <Route exact path='merchant/products' element={<MerchantProductsPage />} />
+
 
         <Route exact path="*" element={<NotFound />} />
       </Routes>
