@@ -6,6 +6,7 @@ import Button from "../styled/Button"
 
 // import UI components
 import MerchantNavBar from "../NavBar/MerchantNavBar"
+import MerchantWelcome from "./MerchantWelcome"
 
 export default function MerchantAddProduct() {
     const navigate = useNavigate()

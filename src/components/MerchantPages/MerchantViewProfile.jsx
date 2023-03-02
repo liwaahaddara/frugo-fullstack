@@ -1,5 +1,6 @@
 // UI Components for HomePage
 import MerchantNavBar from "../NavBar/MerchantNavBar"
+import MerchantWelcome from "./MerchantWelcome"
 
 import Title from "../styled/Title"
 
@@ -7,9 +8,7 @@ export default function MerchantViewProfile() {
     return (
         <>
             <MerchantNavBar />
-            <div className="user-info">
-                <span>Based in: (Merchant City)</span><span> Welcome (Merchant)!</span>
-            </div>
+            <MerchantWelcome />
             <section>
                 <div className="confirmation-details">
                     <div>
