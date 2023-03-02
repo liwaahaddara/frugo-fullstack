@@ -3,16 +3,14 @@ import Title from "../styled/Title"
 import InputWrapper from "../styled/InputWrapper"
 
 import AdminNavBar from "../NavBar/AdminNavBar"
-
+import AdminWelcome from "./AdminWelcome"
 
 
 export default function AdminUpdateMerchant() {
     return (
         <>
             <AdminNavBar />
-            <div className="user-info">
-                <span> Welcome (Admin)!</span>
-            </div>
+            <AdminWelcome />
             <Title>EDIT MERCHANT DETAILS</Title>
             <form
                 style={{

@@ -1,5 +1,6 @@
 // UI Components for HomePage
 import AdminNavBar from "../NavBar/AdminNavBar"
+import AdminWelcome from "./AdminWelcome"
 
 import Title from "../styled/Title"
 
@@ -7,9 +8,7 @@ export default function AdminViewProfile() {
     return (
         <>
             <AdminNavBar />
-            <div className="user-info">
-                <span> Welcome (Admin)!</span>
-            </div>
+            <AdminWelcome />
             <section>
                 <div className="confirmation-details">
                     <div>

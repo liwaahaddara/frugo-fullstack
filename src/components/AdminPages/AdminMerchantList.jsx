@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 // UI Components for HomePage
 import AdminNavBar from "../NavBar/AdminNavBar"
+import AdminWelcome from "./AdminWelcome"
 
 import Title from "../styled/Title"
 
@@ -10,9 +11,7 @@ export default function AdminMerchantList() {
     return (
         <>
             <AdminNavBar />
-            <div className="user-info">
-                <span> Welcome (Admin)!</span>
-            </div>
+            <AdminWelcome />
             <section>
                 <Title><button className="merchant-add"
                     onClick={() => { navigate(`/admin/add-merchant`) }}
