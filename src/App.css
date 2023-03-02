@@ -12,6 +12,11 @@
   padding: 1rem;
 }
 
+.dev-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
 
 .dummy-text-group {
   padding: 0 20px;
