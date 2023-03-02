@@ -17,12 +17,12 @@ export default function AdminNavBar() {
             linkTo: "/admin/customer-list",
         },
         {
-            title: "Logout",
-            linkTo: "/",
-        },
-        {
             title: "View Profile",
             linkTo: "/admin/profile",
+        },
+        {
+            title: "Logout",
+            linkTo: "/",
         },
     ]
 

@@ -21,12 +21,12 @@ export default function CustomerNavBar() {
             linkTo: "/customer/completed-orders",
         },
         {
-            title: "Logout",
-            linkTo: "/",
-        },
-        {
             title: "View Profile",
             linkTo: "/customer/profile",
+        },
+        {
+            title: "Logout",
+            linkTo: "/",
         },
     ]
 

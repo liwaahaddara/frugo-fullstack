@@ -17,12 +17,12 @@ export default function MerchantNavBar() {
             linkTo: "/merchant/orders",
         },
         {
-            title: "Logout",
-            linkTo: "/",
-        },
-        {
             title: "View Profile",
             linkTo: "/merchant/profile",
+        },
+        {
+            title: "Logout",
+            linkTo: "/",
         },
     ]
 
