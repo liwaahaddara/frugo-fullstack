@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
 
 // import UI components
 import Button from "../styled/Button"
@@ -12,7 +12,7 @@ export default function CustomerProduct(props) {
     const product = props.productInfo
     const [productOnCart, setProductOnCart] = useState(0)
 
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
 
     function handleAddToCart() {

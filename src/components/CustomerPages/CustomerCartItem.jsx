@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+import Wrapper from "../styled/Wrapper"
+
 const CustomerCartItem = (props) => {
 
     const [noOfItems, setNoOfitems] = useState(0)
@@ -19,11 +21,13 @@ const CustomerCartItem = (props) => {
     }
 
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center'
-        }}>
+        <Wrapper
+        // style={{
+        //     display: 'flex',
+        //     flexDirection: 'column',
+        //     alignItems: 'center'
+        // }}
+        >
             <img
                 style={{
                     height: 200,
@@ -60,7 +64,7 @@ const CustomerCartItem = (props) => {
                 <button disabled={noOfItems === item.stock} onClick={handleIncrease}>+</button>
             </div>
             <div>Sub-Total Price: ${(noOfItems * item.price).toFixed(2)}</div>
-        </div>
+        </Wrapper>
     )
 }
 
