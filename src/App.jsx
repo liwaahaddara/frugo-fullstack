@@ -18,6 +18,7 @@ import CustomerCompletedOrders from './components/CustomerPages/CustomerComplete
 // imports for the 'Merchant' user
 import MerchantHomePage from './components/MerchantPages/MerchantHomePage';
 import MerchantProductsPage from './components/MerchantPages/MerchantProductsPage';
+import MerchantAddProduct from './components/MerchantPages/MerchantAddProduct';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
 
         <Route exact path='merchant' element={<MerchantHomePage />} />
         <Route exact path='merchant/products' element={<MerchantProductsPage />} />
+        <Route exact path='merchant/add-product' element={<MerchantAddProduct />} />
 
 
         <Route exact path="*" element={<NotFound />} />
