@@ -22,28 +22,32 @@ export default function AdminMerchantList() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
                         className="buttons-styled">
-                        <button className="button-styled">Edit</button>
+                        <button onClick={() => { navigate(`/admin/update-merchant`) }}
+                            className="button-styled">Edit</button>
                         <button className="button-styled">Delete</button>
                         <br />
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
                         className="buttons-styled">
-                        <button className="button-styled">Edit</button>
+                        <button onClick={() => { navigate(`/admin/update-merchant`) }}
+                            className="button-styled">Edit</button>
                         <button className="button-styled">Delete</button>
                         <br />
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
                         className="buttons-styled">
-                        <button className="button-styled">Edit</button>
+                        <button onClick={() => { navigate(`/admin/update-merchant`) }}
+                            className="button-styled">Edit</button>
                         <button className="button-styled">Delete</button>
                         <br />
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>
                     <div
                         className="buttons-styled">
-                        <button className="button-styled">Edit</button>
+                        <button onClick={() => { navigate(`/admin/update-merchant`) }}
+                            className="button-styled">Edit</button>
                         <button className="button-styled">Delete</button>
                         <br />
                     </div>

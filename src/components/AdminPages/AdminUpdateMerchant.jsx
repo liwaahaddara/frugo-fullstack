@@ -6,14 +6,14 @@ import AdminNavBar from "../NavBar/AdminNavBar"
 
 
 
-export default function AdminAddMerchant() {
+export default function AdminUpdateMerchant() {
     return (
         <>
             <AdminNavBar />
             <div className="user-info">
                 <span> Welcome (Admin)!</span>
             </div>
-            <Title>NEW MERCHANT DETAILS</Title>
+            <Title>EDIT MERCHANT DETAILS</Title>
             <form
                 style={{
                     display: "flex",
@@ -70,7 +70,7 @@ export default function AdminAddMerchant() {
                 </InputWrapper>
                 <div>
                     <input className="button-styled"
-                        type="submit" value="REGISTER MERCHANT" />
+                        type="submit" value="UPDATE MERCHANT" />
                 </div>
             </form>
         </>

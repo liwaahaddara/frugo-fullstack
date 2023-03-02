@@ -25,6 +25,7 @@ import MerchantOrders from './components/MerchantPages/MerchantOrders';
 import AdminHomePage from './components/AdminPages/AdminHomePage';
 import AdminMerchantList from './components/AdminPages/AdminMerchantList';
 import AdminAddMerchant from './components/AdminPages/AdminAddMerchant';
+import AdminUpdateMerchant from './components/AdminPages/AdminUpdateMerchant';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Route exact path='admin' element={<AdminHomePage />} />
         <Route exact path='admin/merchant-list' element={<AdminMerchantList />} />
         <Route exact path='admin/add-merchant' element={<AdminAddMerchant />} />
+        <Route exact path='admin/update-merchant' element={<AdminUpdateMerchant />} />
 
 
         <Route exact path="*" element={<NotFound />} />
