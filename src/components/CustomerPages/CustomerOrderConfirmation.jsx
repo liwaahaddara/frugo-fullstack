@@ -1,5 +1,6 @@
 // UI Components for HomePage
 import CustomerNavBar from "../NavBar/CustomerNavbar"
+import CustomerWelcome from "./CustomerWelcome"
 
 import Title from "../styled/Title"
 
@@ -9,9 +10,7 @@ export default function CustomerOrderConfirmation() {
     return (
         <>
             <CustomerNavBar />
-            <div className="user-info">
-                <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
-            </div>
+            <CustomerWelcome />
             <section>
                 <h2 className="confirmation-heading">Your order has been sent!</h2>
 

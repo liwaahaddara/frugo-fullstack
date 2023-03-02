@@ -1,5 +1,6 @@
 // UI Components for HomePage
 import CustomerNavBar from "../NavBar/CustomerNavbar"
+import CustomerWelcome from "./CustomerWelcome"
 
 import Title from "../styled/Title"
 
@@ -7,9 +8,7 @@ export default function CustomerViewProfile() {
     return (
         <>
             <CustomerNavBar />
-            <div className="user-info">
-                <span>Merchant/City: (Customer City)</span><span> Welcome (Customer)!</span>
-            </div>
+            <CustomerWelcome />
             <section>
                 <div className="confirmation-details">
                     <div>
