@@ -1,15 +1,10 @@
-// import images here
-// import Apples from './images/apples.png';
-// import Carrots from './images/carrots.png';
-// import Cherries from './images/cherries.png';
-
 const data = {
   products: [
     {
       name: 'Apples',
       slug: 'apples',
       category: 'Fruit',
-      // image: Apples,
+      image: './images/apples.jpg',
       price: 2.31,
       countInStock: 20,
       producer: 'fruGo',
@@ -21,7 +16,7 @@ const data = {
       name: 'Carrots',
       slug: 'carrots',
       category: 'Vegetable',
-      // image: Carrots,
+      image: './images/carrots.jpg',
       price: 1.67,
       countInStock: 16,
       producer: 'fruGo',
@@ -33,7 +28,7 @@ const data = {
       name: 'Cherries',
       slug: 'cherries',
       category: 'Fruit',
-      // image: Cherries,
+      image: './images/cherries.jpg',
       price: 4.05,
       countInStock: 11,
       producer: 'fruGo',
