@@ -18,7 +18,7 @@ const data = {
       category: 'Vegetable',
       image: '/images/carrots.jpg',
       price: 1.67,
-      countInStock: 16,
+      countInStock: 0,
       producer: 'fruGo',
       rating: 4.6,
       numReviews: 7,
