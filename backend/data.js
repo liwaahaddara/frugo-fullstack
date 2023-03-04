@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: 1,
       name: 'Apples',
       slug: 'apples',
       category: 'Fruit',
@@ -13,6 +14,7 @@ const data = {
       description: 'delicious and clean apples!',
     },
     {
+      _id: 2,
       name: 'Carrots',
       slug: 'carrots',
       category: 'Vegetable',
@@ -25,6 +27,7 @@ const data = {
       description: 'delicious and clean carrots!',
     },
     {
+      _id: 3,
       name: 'Cherries',
       slug: 'cherries',
       category: 'Fruit',
