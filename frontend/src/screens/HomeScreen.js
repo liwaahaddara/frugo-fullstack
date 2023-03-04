@@ -49,7 +49,7 @@ function HomeScreen() {
       <h1>Featured Products</h1>
       <div className="products">
         {loading ? (
-          <div>Loading...</div>
+          <div className="loading-screen">Loading...</div>
         ) : error ? (
           <div>{error}</div>
         ) : (

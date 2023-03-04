@@ -46,3 +46,8 @@ main {
 .img-large {
   max-width: 100%;
 }
+
+.loading-screen {
+  font-weight: 700;
+  font-size: 4rem;
+}

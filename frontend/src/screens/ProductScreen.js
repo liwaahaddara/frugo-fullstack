@@ -45,7 +45,7 @@ function ProductScreen() {
   }, [slug]);
 
   return loading ? (
-    <div>Loading...</div>
+    <div className="loading-screen">Loading...</div>
   ) : error ? (
     <div>{error}</div>
   ) : (
