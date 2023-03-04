@@ -47,6 +47,10 @@ main {
   max-width: 100%;
 }
 
+.img-thumbnail {
+  height: 80px;
+}
+
 .loading-screen {
   font-weight: 700;
   font-size: 4rem;
