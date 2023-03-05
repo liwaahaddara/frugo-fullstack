@@ -1,6 +1,12 @@
 # MERN fruGo
 
-# Lessons
+## **Deployed (Heroku) Link: https://frugo-app.herokuapp.com**
+
+### NOTE: Sometimes the deployed link works, and sometimes it doesn't. I'm not sure why, & I've spent a long time doing everything I can to debug it, so I can't seem to figure out why it's not always available.
+
+### If it doesn't work, then please try running the app locally, as I know FOR A FACT that the app works properly when you do that (you can view products, sign in, sign up, purchase products, etc)
+
+# Steps/Commits of the creation of the fruGo Fullstack App
 
 1. Introduction
 2. Install required tools
