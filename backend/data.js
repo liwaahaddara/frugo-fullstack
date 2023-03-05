@@ -1,11 +1,11 @@
 const data = {
   products: [
     {
-      _id: 1,
+      // _id: 1,
       name: 'Apples',
       slug: 'apples',
-      category: 'Fruit',
       image: '/images/apples.jpg',
+      category: 'Fruit',
       price: 2.31,
       countInStock: 20,
       producer: 'fruGo',
@@ -14,7 +14,7 @@ const data = {
       description: 'delicious and clean apples!',
     },
     {
-      _id: 2,
+      // _id: 2,
       name: 'Carrots',
       slug: 'carrots',
       category: 'Vegetable',
@@ -27,7 +27,7 @@ const data = {
       description: 'delicious and clean carrots!',
     },
     {
-      _id: 3,
+      // _id: 3,
       name: 'Cherries',
       slug: 'cherries',
       category: 'Fruit',
