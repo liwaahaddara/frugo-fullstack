@@ -51,6 +51,10 @@ main {
   height: 80px;
 }
 
+.small-container {
+  max-width: 600px;
+}
+
 .loading-screen {
   font-weight: 700;
   font-size: 4rem;
