@@ -1,5 +1,9 @@
 # MERN fruGo
 
+## **My GitHub Repo: https://github.com/liwaahaddara/frugo-fullstack**
+
+## **Link to the Documentation/README (Part A) of this App: https://github.com/fruGo-Team/fruGo-Design**
+
 ## **Deployed (Heroku) Link: https://frugo-app.herokuapp.com**
 
 ### NOTE: Sometimes the deployed link works, and sometimes it doesn't. I'm not sure why, & I've spent a long time doing everything I can to debug it, so I can't seem to figure out why it's not always available.
